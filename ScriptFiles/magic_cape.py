@@ -8,8 +8,8 @@ bg = cv2.imread("background.jpg")
 width = int(cap.get(3))
 height = int(cap.get(4))
 out = cv2.VideoWriter("magic.mp4",cv2.VideoWriter_fourcc(*"MJPG"),25,(width,height))
-lower_blue = np.array([100,100,0],dtype = np.uint8)
-upper_blue = np.array([255,255,50],dtype = np.uint8)
+lower_blue = np.array([75,50,0],dtype = np.uint8)
+upper_blue = np.array([255,200,50],dtype = np.uint8)
 
 
 
